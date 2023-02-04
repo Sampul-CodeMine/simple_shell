@@ -1,10 +1,14 @@
 # SIMPLE SHELL &copy; ALX SOFTWARE ENGINEERING PROGRAMME
 
-Have you made use of a Computer System? Do you have access to a Computer System? If yes then you may have used the Shell program without having a clue to what you actually are using. Every Computer hardware becomes functional with in installation of a software known as the **Operating System**. The **Operating System** is a low-level software that supports a computer's basic functions, such as, scheduling tasks and controlling peripherals, creating interrupts and handling requests, file management, process management, batch processing and OS monitoring/configuration utilities. 
+Have you made use of a Computer System? Do you have access to a Computer System? If yes then you may have used the Shell program without having a clue to what you actually are using. Every Computer hardware becomes functional with the installation of a software known as the **Operating System**. 
+
+The **Operating System** is a low-level software that supports a computer's basic functions, such as, scheduling tasks and controlling peripherals, creating interrupts and handling requests, file management, process management, batch processing and OS monitoring/configuration utilities. 
 
 An **Operating System** *(OS)* is the program that, after being initially loaded into the computer by a boot program, manages all of the other application programs in a computer. The application programs make use of the operating system by making requests for services through a defined application program interface (API).
 
-With that little justling around, what is a *SHELL*? A shell is the outmost layer of an **OS** which serves as an interface to the **OS**. The Shell is a computer program which helps to control processes and files, start and control other programs (application software and utility programs). The shell manages the interaction between the user of a PC and the Operating system itself by prompting for an input from the user through a *console/command line/terminal*, interpretes the input for the **OS**, renders any resulting output from the **OS**.
+With that little justling around, what is a *SHELL*? A shell is the outmost layer of an **OS** which serves as an interface to the **OS**. The Shell is a computer program which helps to control processes and files, start and control other programs (application software and utility programs). 
+
+The shell manages the interaction between the user of a PC and the Operating system itself by prompting for an input from the user through a *console/command line/terminal*, interpretes the input for the **OS**, renders any resulting output from the **OS**.
 
 The Shell provides a way of communicating with the Operating System. This communication could be carried out in different ways
 
