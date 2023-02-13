@@ -44,5 +44,43 @@ Knowing that the Shell is a **CLI** (Command Line Interface) that gives you an i
 - **Pipes: ( `|` )** Piping is running a chain of commands at the sametime, where the result from one process is used as an input for the next process. 
 - **Scripting:** This is a process where you use your shell to run or execute bash scripts 
 
+### Simple Shell: How it works:
+
+`list the files and directories in the working directory.`
+```bash
+simple_shell $ ls
+1.first/                  cgpa_calculator/  crash_course/  keylogger/
+Persons/                  class_polymorph/  exercises/     orphan_files/
+advanced_gpa_calculator/  classes/          first/         simple_calculator/
+```
+
+`creating a file called touch.sh.`
+```bash
+simple_shell $ touch first.sh
+```
+
+`list the files and directories in the working directory.`
+```bash
+simple_shell $ ls
+1.first/                  class_polymorph/  first/         simple_calculator/
+Persons/                  classes/          first.sh
+advanced_gpa_calculator/  crash_course/     keylogger/
+cgpa_calculator/          exercises/        orphan_files/
+```
+
+`list the files and directories in the working directory, then rename a file then list files and directories`
+```bash
+simple_shell $ ls && mv first.sh sample.sh && ls
+1.first/                  class_polymorph/  first/         simple_calculator/
+Persons/                  classes/          first.sh
+advanced_gpa_calculator/  crash_course/     keylogger/
+cgpa_calculator/          exercises/        orphan_files/
+
+1.first/                  class_polymorph/  first/         simple_calculator/
+Persons/                  classes/          keylogger/
+advanced_gpa_calculator/  crash_course/     orphan_files/
+cgpa_calculator/          exercises/        sample.sh
+```
+
 ---
 > Designed by **Ufuoma Egbetamah** *ufosky58@gmail.com* and **Dukeson Ehigboria O.** *dukesonehigboria@gmail.com*
