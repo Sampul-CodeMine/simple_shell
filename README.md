@@ -29,7 +29,20 @@ We have two (2) major types of shells:
   - C Shell - *(.csh)*
   - TENEX/TOPS C Shell - *(.tcsh)*
  
-## REQUIREMENTS FOR THIS PROJECT
+## HOW SHELL WORKS
+
+Knowing that the Shell is a **CLI** (Command Line Interface) that gives you an interface to communicate with the Kernel of the Operating System, these are the way it works.
+- It gives you a prompt showing that it is ready to accept inputs of commands from the user. The prompt could be the **`$`** or the **`%`** symbol depending on the type of shell you are using.
+- Once the return key is pressed after typing in your commands, the input is split into token (a term called **tokenization**). In this process, commands, arguments and flags are distinguised.
+- The commands are then checked to see if it is a built-in shell executable command or a system call to external command file located in the file systtem.
+- if the command is a built-in command, the command is executed and returns the prompt to the shell to get more commands
+- if the command is a system call to an external command, shell searches the **$PATH** environment variable to check if the if the executable file exists. It it exists, a new proceses is created with a *processID* and executes the command then returns prompt to the shell for new input. If the executable file is not found in the **$PATH** environment variable or in the path specified, then an error is thrown and returns to the shell with a prompt for inputs of commands from the user.
+
+**Advanced task that a SHELL could also perform includes:**
+
+- **Redirections: ( `>>, >, <<, <` )** In this operation, outputs from processes of commands could be redirected to a the standard output device, a file or to another ouput device or could serve as an input to a new process. Inputs could come from the standard input device, or from a file or from the result of a preevious command.
+- **Pipes: ( `|` )** Piping is running a chain of commands at the sametime, where the result from one process is used as an input for the next process. 
+- **Scripting:** This is a process where you use your shell to run or execute bash scripts 
 
 ---
 > Designed by **Ufuoma Egbetamah** *ufosky58@gmail.com* and **Dukeson Ehigboria O.** *dukesonehigboria@gmail.com*
